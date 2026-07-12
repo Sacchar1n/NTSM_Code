@@ -13,8 +13,8 @@ NTSM consists of three parallel processing streams (Temporal, Parietal, Ocular) 
 
 | Module | Description | Paper Reference |
 |--------|-------------|-----------------|
-| **SRU** | Spectral Recalibration Unit — channel-wise attention for adaptive frequency band weighting | Section II-C2 |
 | **FC-Bridge** | Functional Connectivity Bridge — parietal-to-temporal top-down attentional regulation | Section II-C1 |
+| **SRU** | Spectral Recalibration Unit — channel-wise attention for adaptive frequency band weighting | Section II-C2 |
 | **OGA** | Ocular-Guided Attention — asymmetric cross-attention for eye-brain coupling | Section II-C3 |
 | **AD-Gate** | Artifact Disentanglement Gate — soft disentanglement of EOG artifacts | Section II-C4 |
 | **Bi-SSM** | Bidirectional Selective SSM Encoder — linear-complexity temporal modeling | Section II-D |

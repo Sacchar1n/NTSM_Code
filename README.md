@@ -1,7 +1,7 @@
 # NTSM
 
 > **Neurophysiology-Guided Tri-Stream Selective State Space Model for Real-Time Driver Fatigue Detection with EEG-EOG Signals**  
-> IEEE Transactions on Intelligent Transportation Systems
+> IEEE Journal of Biomedical and Health Informatics (J-BHI)
 
 ## Overview
 
@@ -42,8 +42,8 @@ NTSM_Code/
 
 ## Requirements
 
-- Python >= 3.8
-- PyTorch >= 1.13
+- Python >= 3.9
+- PyTorch >= 1.9
 - NumPy, SciPy, scikit-learn
 
 ```bash
@@ -83,7 +83,8 @@ output = model(eeg, eog)  # (B,) continuous PERCLOS scores
 @article{yuan2026ntsm,
   title={NTSM: Neurophysiology-Guided Tri-Stream Selective State Space Model for Real-Time Driver Fatigue Detection with EEG-EOG Signals},
   author={Yuan, Jiantao and Tang, Jing and Han, Haijun and Yin, Rui and Liu, Shengli and Wang, Jue and Wu, Celimuge},
-  journal={IEEE Transactions on Intelligent Transportation Systems},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  note={Under Review},
   year={2026}
 }
 ```
